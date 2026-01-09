@@ -8,8 +8,7 @@
   "editor.defaultFormatter": "vscode.html-language-features",
   "editor.minimap.enabled": false,
   "editor.linkedEditing": true,
- 
-  "editor.quickSuggestions": {
+   "editor.quickSuggestions": {
     "comments": "off",
     "strings": "off",
     "other": "on"
