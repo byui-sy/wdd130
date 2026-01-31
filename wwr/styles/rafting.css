@@ -40,7 +40,6 @@ h2 {
     color: var(--secondary-color);
 }
 
-nav,
 p,
 section,
 article {
@@ -50,6 +49,11 @@ article {
 
 .socialmedia a {
     text-decoration: none;
+}
+
+nav {
+    margin: 16px;
+    padding: 8px;
 }
 
 .hero {
