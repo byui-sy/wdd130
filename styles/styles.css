@@ -30,21 +30,21 @@ main {
     grid-column: 2/3;
     margin: 1rem;
 
-
 }
 
 h1 {
-    margin: 1rem;
+    margin: 10rem;
     color: darkblue;
+
 }
 
 main img {
-    width: 150px;
+    width: 500px;
     height: auto;
     border: 1px solid black;
     padding: 2px;
     box-shadow: 0 0 30px gray;
-    float: right;
+    float: center;
     margin: 0 0 1rem 1rem;
 }
 
@@ -53,7 +53,7 @@ p {
 }
 
 aside {
-    width: 20rem;
+    width: 45rem;
     position: relative;
     grid-column: 1/2;
     grid-row: 1/2;
@@ -61,15 +61,19 @@ aside {
 }
 
 aside img {
-    width: 200px;
+    width: 500px;
     height: auto;
+    padding-left: 10rem;
+
 }
 
 aside h2 {
     position: absolute;
     top: 20px;
-    left:
-        30px;
+    left: 30px;
+    padding-left: 10rem;
+    color: #fff;
+
 }
 
 header,
@@ -83,7 +87,7 @@ footer {
     display: grid;
     align-items: center;
     grid-template-columns: auto 100px;
-    
+
 }
 
 footer {
@@ -102,5 +106,6 @@ footer {
 }
 
 .indent {
-    padding-left: 2rem;
+    padding-left: 10rem;
+    width: 500px;
 }
