@@ -39,7 +39,7 @@ nav,
 p,
 section,
 article {
-    margin: 16px;
+    margin: 2px 16px;
     padding: 8px;
 }
 
@@ -52,6 +52,9 @@ article {
 }
 
 h1 {
+    .hero img display: block;
+    width: 100%;
+    height: auto;
     position: absolute;
     top: 20px;
     width: 100%;
@@ -62,22 +65,14 @@ h1 {
     color: #fff;
 }
 
-.hero article {
-
-    position: absolute;
-    margin: 16px;
-    padding: 8px;
-
-}
-
-.hero img {
-    display: block;
-    width: 100%;
-    height: auto;
-}
-
 .hero article img {
 
     float: right;
     width: 125px;
+}
+
+.hero article {
+    position: relative;
+    margin: 16px;
+    padding: 8px;
 }
