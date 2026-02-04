@@ -68,14 +68,13 @@ h1 {
     color: #fff;
 }
 
-.hero article img {
-
-    float: right;
-    width: 125px;
-}
-
 .hero article {
-    position: relative;
+    position: absolute;
     margin: 16px;
     padding: 8px;
+}
+
+.hero article img {
+    float: right;
+    width: 125px;
 }
