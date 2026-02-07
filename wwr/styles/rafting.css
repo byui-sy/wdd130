@@ -97,6 +97,7 @@ h1 {
 .hero article {
     margin: 16px;
     padding: 8px;
+    position: absolute;
 }
 
 .hero article img {
