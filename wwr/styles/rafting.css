@@ -73,32 +73,38 @@ h1 {
     color: var(--secondary-color);
     text-align: center;
     margin-top: 1rem;
+    margin-bottom: 1rem;
     font: var(--heading-font);
     font-size: 30px;
 }
 
 .map {
     display: flex;
-    margin-top: 1rem;
+    margin-top: 3rem;
     margin-left: 1rem;
+    width: 70%;
+    height: 30%;
     padding-right: 1rem;
-}
-
-aside {
-    margin-left: 10rem;
-    padding: 1rem;
 
 }
 
-aside > .form {
+.form {
     display: flex;
+    margin-top: 1rem;
 
 }
 
-button {
-    font-size: 14px;
-    width: 300px;
+.button {
+    width: 350px;
+    margin-left: 500px;
     text-align: center;
+
+}
+
+#submit {
+    width: 18rem;
+    height: 2rem;
+    font-size: 0.5;
 }
 
 .box {
@@ -106,6 +112,7 @@ button {
     padding: 1rem;
     width: 100%;
     height: 5%;
+    margin-top: 1rem;
     margin-bottom: 1rem;
     margin-left: 1rem;
 
@@ -131,22 +138,19 @@ h2 {
 }
 
 footer {
-    margin-top: 1rem;
-    margin-bottom: 1rem;
+    margin-left: 21rem;
+
 }
 
 p {
-    text-align: center;
+    margin-left: 10rem;
+    margin-top: 2rem;
+
 }
 
-socialmedia a {
-    text-decoration: none;
-    border: 1px solid brown;
-}
-
-.socialmedia img {
+.socialmedia {
+    display: flex;
+    margin-left: 5rem;
     width: 4rem;
-    height: 4rem;
-    padding: 1rem;
-    margin-right: 0.5rem
+
 }
