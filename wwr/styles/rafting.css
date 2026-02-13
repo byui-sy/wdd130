@@ -78,12 +78,6 @@ h1 {
     font-size: 30px;
 }
 
-p {
-    margin-left: 1rem;
-    text-align: center;
-
-}
-
 .map {
     display: flex;
     margin-top: 3rem;
@@ -146,19 +140,25 @@ h2 {
 }
 
 footer {
-    margin-left: 21rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    border: 1px solid purple;
 
 }
 
-l {
-    margin-right: 4rem;
-    margin-left: 8rem;
-    margin-top: 2rem;
+p {
+    grid-column: 1/2 border;
+    1px solid blue;
+}
+
+.socialmedia img {
+    width: 20px;
+    height: 20px;
 }
 
 .socialmedia {
-    display: flex;
-    margin-left: 5rem;
-    width: 4rem;
+    display: grid;
+    grid-column: 1/2;
+    border: 1px solid orange;
 
 }
