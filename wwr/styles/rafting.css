@@ -78,6 +78,8 @@ h1 {
     font-size: 30px;
 }
 
+p {}
+
 .map {
     display: flex;
     margin-top: 3rem;
@@ -104,7 +106,7 @@ h1 {
 #submit {
     width: 18rem;
     height: 2rem;
-    font-size: 0.5;
+    font-size: 1rem;
 }
 
 .box {
@@ -115,6 +117,7 @@ h1 {
     margin-top: 1rem;
     margin-bottom: 1rem;
     margin-left: 1rem;
+    border: 1px solid red;
 
 }
 
@@ -135,6 +138,7 @@ h2 {
     margin-left: 12rem;
     margin-right: 10rem;
     font-size: 15px;
+    border: 1px solid red;
 }
 
 footer {
@@ -145,12 +149,12 @@ footer {
 p {
     margin-left: 10rem;
     margin-top: 2rem;
+    border: 1px solid green;
 
-}
+    .socialmedia {
+        display: flex;
+        margin-left: 5rem;
+        width: 4rem;
+        border: 1px solid red;
 
-.socialmedia {
-    display: flex;
-    margin-left: 5rem;
-    width: 4rem;
-
-}
+    }
