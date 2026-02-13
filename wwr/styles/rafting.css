@@ -45,7 +45,7 @@ footer {
 
 nav {
     background-color: var(--accent1-color);
-    max-width: 500;
+    max-width: 840px;
     padding: 2rem;
     display: flex;
 
@@ -54,7 +54,7 @@ nav {
 nav ul {
     list-style-type: none;
     display: flex;
-    max-width: 500;
+    max-width: 840px;
     margin: 1rem 2rem;
     padding: 1rem;
     font-size: 1.2rem;
@@ -63,7 +63,7 @@ nav ul {
 
 nav a {
     display: block;
-    color: #fff;
+    color: darkblue;
     padding: 1rem;
     text-decoration: none;
 
@@ -84,17 +84,11 @@ article {
     color: #000
 }
 
-.flex-container {
-    display: flex;
-    flex-direction: row;
-
-}
-
 .map {
     display: flex;
     margin-top: 1rem;
-    margin-left: 20rem;
-    padding-right: 20rem;
+    margin-left: 1rem;
+    padding-right: 1rem;
 }
 
 aside {
@@ -114,27 +108,21 @@ button {
     text-align: center;
 }
 
-.flex-container {
-    display: flex;
-    flex-direction: row;
-
-}
-
 .box {
     border: 2px solid #000;
     padding: 1rem;
-    width: 57%;
+    width: 100%;
     height: 5%;
     margin-bottom: 1rem;
-    margin-left: 20rem;
+    margin-left: 1rem;
 
 }
 
 h2 {
     font: var(--heading-font);
     font-size: 25px;
-    margin-left: 16rem;
-    width: 50%;
+    margin-left: 15rem;
+    width: 70%;
     color: blue;
 }
 
@@ -145,18 +133,27 @@ h2 {
     margin-top: 1rem;
     margin-bottom: 3rem;
     margin-left: 12rem;
-    margin-right: 20rem;
+    margin-right: 10rem;
     font-size: 15px;
+}
+
+footer {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+p {
+    text-align: center;
+}
+
+socialmedia a {
+    text-decoration: none;
+    border: 1px solid brown;
 }
 
 .socialmedia img {
     width: 4rem;
-    height: auto;
+    height: 4rem;
     padding: 1rem;
     margin-right: 0.5rem
-}
-
-p {
-    color: #fff;
-    padding-left: 5rem;
 }
