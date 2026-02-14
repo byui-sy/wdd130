@@ -63,7 +63,7 @@ nav ul {
 
 nav a {
     display: block;
-    color: darkblue;
+    color: ;
     padding: 1rem;
     text-decoration: none;
 
@@ -76,6 +76,10 @@ h1 {
     margin-bottom: 1rem;
     font: var(--heading-font);
     font-size: 30px;
+}
+
+ul {
+    margin-left: 20rem;
 }
 
 .map {
@@ -121,7 +125,7 @@ h1 {
 h2 {
     font: var(--heading-font);
     font-size: 25px;
-    margin-left: 15rem;
+    margin-left: 18rem;
     width: 70%;
     color: blue;
 }
@@ -129,36 +133,49 @@ h2 {
 .image-box {
     display: flex;
     flex-direction: row;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    margin-left: 1.5rem;
+    border: 2px solid #000
+}
+
+.image-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px;
+    justify-content: center;
     align-items: end;
-    margin-top: 1rem;
-    margin-bottom: 3rem;
-    margin-left: 12rem;
-    margin-right: 10rem;
-    font-size: 15px;
-    border: 1px solid green;
+    padding: 10px;
+    font-size: 12px;
+    margin-left: 25px;
 
 }
 
 footer {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    border: 1px solid purple;
+    display: flex;
+    margin-left: 21rem;
+    width: 70%;
 
 }
 
 p {
-    grid-column: 1/2 border;
-    1px solid blue;
+    display: flex;
+    margin-left: 10rem;
+    width: 100%;
+    align-items: center;
+
 }
 
 .socialmedia img {
-    width: 20px;
-    height: 20px;
+
+    width: 40px;
+    height: 40px;
+
 }
 
 .socialmedia {
-    display: grid;
-    grid-column: 1/2;
-    border: 1px solid orange;
+    display: flex;
+    width: 85%;
+    justify-content: space-evenly;
 
 }
