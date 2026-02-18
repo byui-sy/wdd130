@@ -68,67 +68,14 @@ nav a {
 
 }
 
-.hero-container {
-    position: relative;
-    max-width: 100%;
-    margin-top: 1rem;
-
-}
-
-.hero-img {
-    display: block;
-    width: 100%;
-    height: auto;
-
-}
-
-h1 {
-    position: absolute;
-    font-size: 25px;
-    text-align: center;
-    top: 2%;
-    left: 30%;
-    color: #fff;
-}
-
-article {
-    position: absolute;
-    top: 60%;
-    left: 5%;
-    color: #000;
-    margin-left: 5rem;
-    margin-right: 8rem;
-    font-size: 20px;
-    background-color: #fff;
-
-}
-
-.history-container {
-    position: relative;
-    display: flex;
-    flex-direction: row;
+p {
     margin-top: 2rem;
-    gap: 10px;
 
 }
 
-h2 {
-    display: flex;
-    position: absolute;
-    font: var(--heading-font);
-    font-size: 25px;
-    color: blue;
-    margin-left: 23rem;
-
-}
-
-.history-img {
-    display: flex;
-    position: absolute;
-    justify-content: center;
-    width: 25%;
-    margin-left: 10rem;
-    margin-top: 20rem;
+a {
+    text-decoration: none;
+    font-size: 1.2rem;
 
 }
 
@@ -141,15 +88,29 @@ h2 {
     width: 100%;
 }
 
+h2 {
+    text-align: center;
+    margin-left: 25px;
+    margin-top: 1rem;
+    color: blue;
+}
+
 .image-row {
     display: flex;
     flex-direction: row;
-    gap: 2px;
-    margin-top: 2rem;
-    justify-content: flex-start;
+    gap: 10px;
+    margin-top: 1rem;
+    margin-left: 8rem;
+    margin-bottom: 1rem;
+    justify-content: space-evenly;
     align-items: end;
     padding: 10px;
     font-size: 12px;
+}
+
+table {
+    border-spacing: 15px;
+
 }
 
 footer {
