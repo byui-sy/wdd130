@@ -101,12 +101,50 @@ article {
     font-size: 20px;
     background-color: #fff;
 
+    border: 1pt solid red;
+
+}
+
+history-container {
+    display: flex;
+    flex-direction: flow;
+}
+
+.image {
+    display: flex;
+    flex-direction: flow;
+    margin-left: 18rem;
+}
+
+h2 {
+    display: flex;
+    flex-direction: row;
+    font: var(--heading-font);
+    font-size: 25px;
+    margin-top: 3rem;
+    text-align: center;
+    color: blue;
+
+}
+
+.image-row {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    align-items: end;
+    padding: 1px;
+    font-size: 15px;
+    gap: 20px;
+    justify-content: space-around;
+    margin-left: 1rem;
+    margin-right: 25rem;
+    margin-bottom: 5rem;
 }
 
 footer {
     display: flex;
     margin-top: 1rem;
-    margin-left: 20rem;
+    margin-left: 21rem;
     width: 70%;
 
 }
