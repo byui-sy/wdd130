@@ -99,6 +99,14 @@ form {
 
 }
 
+button {
+    width: 80px;
+    height: 20px;
+    border: 2px solid grey;
+    margin-bottom: 2rem;
+    margin-left: 10rem;
+}
+
 a {
     text-decoration: none;
 
