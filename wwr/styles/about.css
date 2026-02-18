@@ -130,7 +130,6 @@ h2 {
 .image-row {
     display: flex;
     flex-direction: row;
-    position: relative;
     align-items: end;
     padding: 1px;
     font-size: 15px;
