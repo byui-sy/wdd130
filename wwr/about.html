@@ -13,12 +13,10 @@
 
 <body>
     <header>
-        <!--Navigation bar-->
-
-        <div class="grid">
-            <img src=" images/logo.png" alt="Dolphin WWR" width="200">
+        <div class="flex-container">
+            <img src=" images/logo.png" alt="Dolphin WWR">
             <nav>
-                <ul class="navigation">
+                <ul>
                     <li><a href="index.html">Home</a></li>
                     <li><a href="about.html">About Us</a></li>
                     <li><a href="trips.html">Trips</a></li>
@@ -28,72 +26,100 @@
         </div>
     </header>
 
-    <!--Hero picture and article-->
-    <main>
-        <div class="hero">
-            <img src="images/rafting.jpg" alt="white-water-rafting" width="840">
-            <h1> Dolphin White Water Rafting</h1>
-            <article>
-                <img src="images/dolphinwwr.jpg" alt="dolphin" width="800" height=auto>
-                <h2>The Experience</h2>
-                <p> Come join in the experience.Lorem ipsum dolor sit amet consectetur adipiscing
-                    elit. Consectetur adipiscing
-                    elit quisque faucibus ex sapien vitae. Ex sapien vitae pellentesque sem placerat
-                    in id. Placerat in id
-                    cursus mi pretium tellus duis. Pretium tellus duis convallis tempus leo eu
-                    aenean.
-                </p>
-            </article>
-        </div>
 
-        <!--Section-->
-        <section>
-            <h2>History</h2>
-            <p>Dolphin White Water Rafting was Lorem ipsum dolor sit
-                amet consectetur adipiscing
-                elit. Consectetur adipiscing elit quisque faucibus
-                ex sapien vitae.</p>
-            <p>Ex sapien vitae pellentesque sem placerat in id.
+    <main>
+        <div class="hero-container">
+            <div class="hero-img">
+                <img src="images/rafting.jpg" alt="white-water-rafting" width="840">
+            </div>
+
+            <h1>Dolphin Whitewater Rafting</h1>
+
+            <article>
+                Lorem ipsum dolor sit amet consectetur adipiscing elit.
+                Consectetur adipiscing
+                elit quisque faucibus
+                ex sapien vitae. Ex sapien vitae pellentesque sem placerat in id.
                 Placerat
                 in id
                 cursus mi pretium
-                tellus duis. Pretium tellus duis convallis tempus leo eu aenean.</p>
-        </section>
-        <section>
-            <h2>Adventure Awaits You!</h2>
-            <figure>
-                <img src="images/wwr1.jpg" alt="Gentle-Waters">
-                <figcaption> Gentle Waters
-                </figcaption>
-                <img src="images/wwr2.jpg" alt="Mighty-River">
-                <figcaption> Mighty River</figcaption>
-                <img src="images/wwr3.jpg" alt="The Rapids">
-                <figcaption> Day Out In The Rapids
-                </figcaption>
-                <img src="images/wwr4.jpg" alt="Great Plunge">
-                <figcaption> Great Plunge</figcaption>
-                <img src="images/wwr5.jpg" alt="Made It">
-                <figcaption> We Made It!</figcaption>
-            </figure>
+                tellus duis. Pretium tellus duis convallis tempus leo eu aenean.
 
-        </section>
+            </article>
+        </div>
+
+        <h2>History</h2>
+
+        <div class="history-container">
+
+            Lorem ipsum dolor sit amet consectetur adipiscing elit.
+            Consectetur adipiscing
+            elit quisque faucibus
+            ex sapien vitae. Ex sapien vitae pellentesque sem placerat in id.
+            Placerat
+            in id
+            cursus mi pretium
+            tellus duis. Pretium tellus duis convallis tempus leo eu aenean.
+
+            <img src="images/dolphinwwr.jpg" alt="dolphin history" width="250" height="150">
+
+            Lorem ipsum dolor sit amet consectetur adipiscing elit.
+            Consectetur adipiscing
+            elit quisque faucibus
+            ex sapien vitae. Ex sapien vitae pellentesque sem placerat in id.
+            Placerat
+            in id
+            cursus mi pretium
+            tellus duis. Pretium tellus duis convallis tempus leo eu aenean.
+
+        </div>
+
+
+        <div class="image-box">
+
+            <h2>Adventure Awaits You</h2>
+            <figure>
+                <div class="image-row">
+                    <img src="images/wwr1.jpg" alt="Here We Go" width=100px height=90px>
+                    <figcaption>Here We Go</figcaption>
+
+                    <img src="images/wwr2.jpg" alt="The Rapids" width=100px height=90px>
+                    <figcaption>The Rapids</figcaption>
+
+                    <img src="images/wwr3.jpg" alt="Keep Rowing" width=100px height=90px>
+                    <figcaption>Keep Rowing</figcaption>
+
+                    <img src="images/wwr4.jpg" alt="The Plunge" width=100px height=90px>
+                    <figcaption>The Plunge</figcaption>
+
+                    <img src="images/wwr5.jpg" alt="We Made It!" width=100px height=90px>
+                    <figcaption>We Made It!</figcaption>
+                </div>
+            </figure>
+        </div>
+
+
+        </div>
+
 
     </main>
 
-    <!--footer-->
 
-    <footer>
-        <p>©️2026 - Dolphin WWR Adventure - Sook Yin Jewell</p>
-
+    <footer class=" flex-container">
         <nav class="socialmedia">
-            <a href="https://www.facebook.com">
-                <img src="images/facebook.png" alt="Facebook Icon" width="40"></a>
 
-            <a href="https://www.linkedin.com">
-                <img src="images/linkedin.png" alt="LinkedIn Icon" width="40"></a>
+            <p>©️2026 - Dolphin WWR - Sook Yin Jewell</p>
 
-            <a href="https://www.instagram.com">
-                <img src="images/instagram.png" alt="Instagram Icon" width="40"></a>
+            <div class="socialmedia img">
+                <a href="https://www.facebook.com">
+                    <img src="images/facebook.png" alt="Facebook Icon"></a>
+
+                <a href="https://www.linkedin.com">
+                    <img src="images/linkedin.png" alt="LinkedIn Icon"></a>
+
+                <a href="https://www.instagram.com">
+                    <img src="images/instagram.png" alt="Instagram Icon"></a>
+            </div>
         </nav>
     </footer>
 </body>
